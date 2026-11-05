@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #f6f7f9;
+  color: #12231f;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0f766e55;
+  border-color: #0f766e;
+}
